@@ -1,0 +1,19 @@
+ExpressionEngine Dataquery module
+Copyright (c) 2013 - Matt Glover, Tirian Group
+http://tirian.net matt@tirian.net
+
+
+
+Installation:
+Upload the files to your ExpressionEngine Third Party directory into a directory called dataquery
+In ExpressionEngine Admin, go to Add ons->Modules and click "Install" on the dataquery module entry
+
+
+
+Usage:
+In your template design, use as follows:
+
+	{exp:dataquery sql="call yourStoredProec('{variable from prior expression}', fixedParameterValue)"}
+		<p>{Column Name}</p>
+	{/exp:dataquery}
+
